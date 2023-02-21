@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather-app-style.css">
+    <title>Real Time Weather App</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>8 Day Weather Forecast (Nagpur IN)</h3>
+        <div id="date">
+        </div>
+        <div class="weather-details">
+            <p class="icon"></p>
+            <div class="desc">
+                <div class="weather-desc">
+                    <p class="description"></p><span> &nbsp;</span>
+                    <p class="description"></p>
+                </div>
+                <p>The high will be <span class="temp-desc"></span> and low will be <span class="temp-desc"></span>
+                </p>
+            </div>
+        </div>
+        <div class="weather-humidity">
+            <p class="vertical-line"></p>
+            <div class="weather-description">
+                <div id="clouds"></div>
+                <div id="humidity"></div>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <th></th>
+                <th>Morning</th>
+                <th>Afternoon</th>
+                <th>Evening</th>
+                <th>Night</th>
+            </tr>
+            <tr id="table-data">
+                <td class="small">TEMPRATURE</td>
+
+            </tr>
+            <tr id="feels-like">
+                <td class="small">FEELS LIKE</td>
+            </tr>
+        </table>
+        <div class="day">
+            <div class="sunrise">
+                <span class="small">SUNRISE</span>
+                <span class="sunrise time"></span>
+            </div>
+            <div class="sunset">
+                <span class="small">SUNSET</span>
+                <span class="sunset time"></span>
+            </div>
+        </div>
+    </div>
+    <script src="weather-app.js"></script>
+</body>
+
+</html>
